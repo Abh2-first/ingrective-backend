@@ -1,4 +1,12 @@
 from fastapi import FastAPI, UploadFile, File
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"message": "✅ Ingrective Backend is live and working!"}
+
+from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 from PIL import Image
 import requests, io, re
