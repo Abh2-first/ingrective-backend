@@ -3,3 +3,6 @@ uvicorn
 pillow
 easyocr
 python-multipart
+torch
+opencv-python-headless
+numpy
