@@ -1,6 +1,5 @@
 fastapi
 uvicorn
 pillow
-pytesseract
-requests
+easyocr
 python-multipart
